@@ -14,8 +14,8 @@ The `index.html` file contains a calculator implementation with these features:
 ## Challenge Requirements
 
 ### 1. Test Implementation
-Choose a JavaScript testing framework (e.g., Jest, Cypress, Playwright) and create test cases for:
-- Basic arithmetic operations
+Choose a JavaScript testing framework (Jest, Cypress) and create test cases for:
+- Basic arithmetic operations (Jest)
 - Complex calculations with parentheses
 - Error scenarios (invalid expressions, division by zero)
 - UI interactions and history functionality
