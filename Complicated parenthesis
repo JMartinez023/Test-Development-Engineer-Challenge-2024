@@ -1,0 +1,11 @@
+test('should handle parentheses correctly', () => {
+  calculator.addChar('(');
+  calculator.addChar('3');
+  calculator.addChar('+');
+  calculator.addChar('5');
+  calculator.addChar(')');
+  calculator.addChar('×');
+  calculator.addChar('2');
+  calculator.calculate();
+  expect(calculator.resultElement.textContent).toBe('16');
+});
